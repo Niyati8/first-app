@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.nevbar-brand svg  
+{
+    height:50px;
+    width:50px ;
+
+}
+
+.navbar
+{
+    background-color: transparent !important;
+}
+
+.nav-row
+{
+    color: white !important;
+}
+
+.list-group li
+{
+    border: 0;
+    padding-left: 10px;
+    opacity: 0.8;
+
+}
+
+.list-group li:hover
+{
+ background-color: white ;
+}
+
+.nav-row a{
+    color:white !important;
+}
+.contact-form input,textarea,button
+{
+    font-size:80% !important
+}
+
+@media screen and (max-width:576px)
+{
+   .download-btn-div
+   {
+    display: flex;
+    justify-content: center;
+   }
+}
+.contact-form
+{
+    width: 75w !important;
+}
